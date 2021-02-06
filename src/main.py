@@ -16,9 +16,7 @@ if __name__ == "__main__":
         inner_grid = gridspec.GridSpecFromSubplotSpec(1, 2, subplot_spec=outer_grid[i], wspace=0.1, hspace=0.1)
 
         # Loading audio and computing log Mel spectrogram
-        data2 = ap.load_audio(AUDIO_LIST[1])
         data = ap.load_audio(audio_file)
-        data = torch.cat((data, data2), 0)
         data = ap.compute_log_mel_spectrogram(data)
 
         ax1 = plt.Subplot(fig, inner_grid[0])
