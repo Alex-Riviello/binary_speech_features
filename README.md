@@ -22,7 +22,7 @@ To see examples of this representation, run the main.py script using these comma
 
 10 samples from the Google Speech commands dataset (https://ai.googleblog.com/2017/08/launching-speech-commands-dataset.html) were used to generate these images. The main.py script should output this:
 
-![](img/spectrogram_examples.PNG{:height="70%" width="70%"})
+![](img/spectrogram_examples.PNG)
 
 The implementation of the power-variation spectrogram can be found in:
 
