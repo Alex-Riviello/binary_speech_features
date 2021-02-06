@@ -3,7 +3,7 @@ Binary Speech Features for Keyword Spotting Tasks.
 
 ## Description
 
-This respository contains the code to compute the ternary 1-channel power-variation spectrogram found in the conference article (https://www.isca-speech.org/archive/Interspeech_2019/pdfs/1877.pdf). This representation is meant to offer a simplified representation of speech for quantized networks. 
+This respository contains the code to compute the ternary 1-channel power-variation spectrogram found in the conference article (https://www.isca-speech.org/archive/Interspeech_2019/pdfs/1877.pdf). This spectrogram is meant to offer a simplified representation of speech for quantized networks. 
 
 ## Requirements
 
